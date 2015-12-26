@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.tariqulislam.appsbar.Teenager">
+    <include android:id="@id/app_bar"
+        layout="@layout/app_bar"/>
+    <ScrollView
+        android:layout_below="@id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_below="@id/app_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:text="When Muhammad was twenty five years old, he was hired by a woman called Khadija to take her merchandize to Syria. Khadija, a widow fifteen years Muhammad’s senior, later proposed marriage to him, which he agreed to. They lived together for almost a quarter of a century, until the death of Khadija about 8-9 years after the revelation of the Qur’an.
+
+It is interesting to note that Muhammad did not get married to any other woman during Khadija’s life, despite the fact that polygamy was common practice in that society. Living out his youth with only one woman in that highly polygamous environment contradicts Muhammad’s lecherous image in the Western mind.
+
+Muhammad was deeply interested in matters beyond this mundane life. He used to frequent a cave that became known as “Hira‘” on the Mountain of “Nur” (light) for contemplation. The cave itself, which survived the times, gives a very vivid image of Muhammad’s spiritual inclinations. Resting on the top of one of the mountains north of Mecca, the cave is completely isolated from the rest of the world. In fact, it is not easy to find at all even if one knew it existed. After visiting the cave, I found myself concluding that Muhammad must have been divinely guided to that hideaway, even if he had chosen it consciously. Once inside the cave, it is a total isolation. Nothing can be seen other than the clear, beautiful sky above and the many surrounding mountains. Very little of this world can be seen or heard from inside the cave. The inhabitant of that cave was obviously interested in things beyond this world and its material riches.
+
+It was in that cave in 610 CE, i.e. at the age of forty, that Prophet Muhammad received from Allah the first verses of the Qur’an. Then and there, history changed.
+
+The Qur’an continued to be revealed in fragments to Prophet Muhammad over the following twenty two years. The last words of the Book were revealed to the Prophet shortly before his death in 632 CE. We will read more about the Qur’an in section 2.2.
+
+In the first two to three years after the revelation, the Prophet preached Islam secretly to individuals whom he trusted. When he started calling people to Islam publicly, the new religion gradually attracted more people but, not surprisingly, also increasing hostility from the idol worshipping population of Mecca. The Prophet was subjected to harassment and abuse. However, armed with patience, resilience, and determination, and protected by his uncle Abu Talib and the clan of Hashim, the Prophet was able to carry on preaching the new faith to people." />
+
+    </ScrollView>
+
+
+</RelativeLayout>

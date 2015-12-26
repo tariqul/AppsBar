@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.tariqulislam.appsbar.SubActivity">
+    <include android:id="@id/app_bar"
+        layout="@layout/app_bar"/>
+
+    <ScrollView
+        android:layout_below="@id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_below="@id/app_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:text="Prophet Muhammad was born in 570 CE (Common Era) in the city of Mecca in the Arabian Peninsula, part of modern day Saudi Arabia. As his father had died shortly after marriage, his grandfather ‘Abd al-Muttalib became his guardian. ‘Abd al-Muttalib was the respected head of the clan of Hashim and the tribe of Quraysh, to which his clan belonged. With the Quraysh being the biggest and most influential tribe in Mecca, ‘Abd al-Muttalib was seen as the master of all of Mecca. The Quraysh had a special status in Mecca because they used to be in charge of the sacred Ka’ba.
+        The Qur’an tells us that this holy edifice was built by Prophets Abraham and his son Ishmael:
+
+And when Abraham and Ishmael were raising the foundations of the House [Abraham prayed]: “Our Lord! Accept from us; surely You are the Hearing, the Knowing (2.127). Our Lord! Make us Muslims and raise from our offspring a nation of Muslims. Show us our ways of worship, and relent toward us. Surely, Your are the Relenting, the Merciful” (2.128).
+
+This means that the Ka’ba was built around 1900 BCE, which is when Abraham is thought to have lived. The Ka’ba maintained its venerable status as the destination of pilgrimage in the eyes of the pilgrims and the Arab population of the Arabian Peninsula down the centuries. ‘Abd al-Muttalib was personally in charge of the Ka’ba.
+
+The Prophet was only about five to six years old when he lost his mother. Orphan Muhammad then lost his grandfather and custodian ‘Abd al-Muttalib at the age of eight. Now one of ‘Abd al-Muttalib’s sons, Abu Talib, became the guardian of his orphan nephew. Though respected by the clan of Hashim and the people of Mecca in general, Abu Talib did not possess the high status and influence of his father. Had he been more fortunate financially, he might have aspired to acquire that special leadership status.
+        " />
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

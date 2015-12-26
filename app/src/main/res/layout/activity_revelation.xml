@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tariqulislam.appsbar.Revelation">
+
+    <include android:id="@+id/app_bar" layout="@layout/app_bar"/>
+<ScrollView
+    android:layout_below="@id/app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</ScrollView>
+    <TextView
+        android:layout_below="@id/app_bar"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converts to Islam, some of whom were slaves, had to suffer all kinds of persecution, including brutal torture and murder, at the hands of the enemies of the new religion in Mecca. In 614 CE, the Prophet had to instruct a group of Muslims to escape the persecution to Abyssinia and seek the protection of its just Christian king. The Quraysh then sent a delegation to the king, carrying precious gifts, to secure the extradition of the Muslim refugees. The king, however, rejected the bribe and let the Muslims stay in Abyssinia.
+
+One year later, the Quraysh imposed economic and social sanctions on the Prophet, his followers, and his clan. As a result, the Muslims withdrew to a mountain in Mecca. The sanctions lasted about three years before collapsing in 618/619 CE without achieving their goals.
+
+Soon afterward, the Prophet lost his wife Khadija. Matters got worse quickly with the death of his uncle and protector. Prophet Muhammad started to suffer more from the disbelievers’ relentless attempts to uproot Islam and destroy its followers. During the pilgrimage season in 622 CE, Muhammad met in Mecca with a number of chiefs from the city of Yathrib, where he had previously sent some Muslims to settle in. Having converted to Islam, the chiefs made a secret pledge to protect the Prophet should the Quraysh try to kill him.
+
+However, the Quraysh learned about the agreement, so the people from Yathrib had to return quickly to their city. Sensing that the danger to Muslims has increased, Muhammad instructed them to immigrate individually or in small groups to Yathrib. The Qurayshites tried to prevent Muslims from fleeing Mecca to Yathrib, but the converts continued to sneak out gradually.
+
+The continuing immigration of Muslims to Yathrib where they had allies was already very bad news for the Qurayshites. This could yet get much worse if Muhammad also would move to that city. They decided that they had no other option but to kill him.
+
+The various clans of the tribe of Quraysh agreed to act as one and assassinate the Prophet while asleep. The idea behind acting collectively was that no one party could be blamed for the killing and become embroiled in a war of vengeance with the clan of Hashim.
+
+The assassination plan, however, was sabotaged by divine intervention. The night the murder was planned to take place, Allah informed His Prophet of the danger and ordered him to secretly leave Mecca and head to the city of Yathrib. The latter became known as “al-Madina al-Munawwara” (the illuminated city), or “al-Madina” for brief, after the arrival of the Prophet.
+
+This famous event, known as the “Hijra ” (immigration), occurred in 622 CE, about twelve years after the revelation of the first verses of the Qur’an. This flight was destined to have far-reaching consequences in establishing the Islamic community, strengthening the position of Islam, and spreading its message.
+
+The Prophet lived in al-Madina for about ten years. By the time of his departure from this world in 632 CE, Islam had become well established as the religion of the Arabian Peninsula and had made inroads in neighboring regions; Muslims had become a major force to be reckoned with in the area.
+
+There are a number of good, detailed English biographies of Prophet Muhammad. One biography written by a non-Muslim is Karen Armstrong’s Muhammad: A Biography of the Prophet (London: Phoenix Press, 2001). Another one written by a Muslim is Martin Lings’ Muhammad: His Life Based on the Earliest Sources (Inner Traditions Intl Ltd, 1987).
+
+For easy reference, this is a short chronology of major events in the life of Prophet Muhammad:" />
+
+</RelativeLayout>
